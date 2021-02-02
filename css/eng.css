@@ -1,0 +1,135 @@
+
+.navbar-light .show .navbar-nav .nav-link:hover{  /*for mobile*/
+    color: #483ea1;
+    background-color: #6baac1;
+}
+
+
+/*start header style*/
+
+.header .row .colum:hover a{
+    color: #6baac1;
+}
+.header .h6{
+    margin-bottom: 0rem !important;
+}
+/*end header style*/
+
+
+
+
+/*start text-banner*/
+.banner-text{
+    margin: 2rem;
+    padding: 2rem;
+
+}
+.banner-text h2{
+    padding: 1rem 0rem 2rem 0rem;
+}
+/*end text-banner*/
+
+/*start roles*/
+
+.roles{
+    padding: 1rem .5rem;
+    color: #fff;
+    font-size: 1rem;
+    background-repeat: no-repeat;
+    background-size: 20rem 20rem;
+    background-position: right bottom;
+}
+
+
+.roles{
+    background-color: #6baac1;
+    background-image: url('../image/engeener.png');
+    
+}
+
+.roles h3{
+    margin: 1rem 0;
+    padding: 1.5rem 0;
+}
+.slider .btn-primary{
+    padding: .5rem;
+    font-size: 1.2rem;
+    margin:2rem 0rem;
+    background-color: transparent; 
+    border-color: #483ea1;
+    color:#483ea1;;
+}
+.slider .btn-primary:hover{
+    background-color: #6baac1; 
+    color:#fff ;
+}
+/*end roles*/
+
+/*start our team*/
+.our-team .card{
+    border: none;
+    border-radius: 0rem
+}
+.our-team .card-body{
+    padding: 1.25rem 0rem;
+}
+.our-team .card .card-title, .our-team .card .card-link{
+    color: #483ea1;
+}
+
+.our-team .card .card-link:hover{
+    color: #6b83e1;
+}
+.our-team .card .image{
+    height: 15rem;
+
+}
+.our-team .card .image img{
+    height: 100%;
+
+}
+
+/*start qute*/
+
+.quote{
+    background-color: #e4e8f8;
+    padding: 3rem;
+}
+.quote i{
+    opacity: .05;
+    position: absolute;
+}
+.quote i:nth-child(1){
+    left:1rem;
+}
+.quote blockquote div i:last-child{
+    right: 1rem !important;
+}
+/*end*/
+
+
+/*start get in touch*/
+
+.get-touch{
+    padding:2rem;
+    background-color: #6baac1;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.get-touch h1,.get-touch h2 {
+    padding: 1rem;
+}
+.get-touch .row.border-top{
+    padding: 2rem;
+}
+.border-top{
+    border-top: 1px solid #89d6f1;
+}
+.get-touch .row .col-sm .card .btn-primary{
+    border-color:  #483ea1;
+}
+.get-touch .row .col-sm .card .btn-primary:hover{
+    background-color: #483ea1;
+    color: #fff;
+}
+/*end*/

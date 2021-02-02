@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Document</title>
+
+  
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/eng.css">
+
+    <!--end style-->
+</head>
+<body>
+    <!--srart upper bar-->
+    <div class="upper-bar">
+        <div class="container">
+ <!--I use navbar-expand-lg class to make it expand in large screen and up-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="../image/logo.png" alt="not found" class="d-inline-block align-top"
+                        alt="" loading="lazy">
+                </a>
+                <!--I use  d-lg-none class to make it appear in medium screen and down-->
+                <div class="navbar-toggler d-lg-none"  data-toggle="collapse" data-target="#jobsearch"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><i class=" fa fa-search" aria-hidden="true"></i></span>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="jobsearch">
+                  <input type="text" class="dropdown-item" placeholder="keywords">
+                            <span >
+                                <input class="dropdown-item" type="text" list="alist" name="browser" placeholder="location">
+                                <datalist id="alist">
+                                    <option value="Alocation">
+                                    <option value="location2">
+                                    <option value="location3">
+                                    <option value="location4">
+                                    <option value="location5">
+                                </datalist></span>
+                                <i class="fa fa-angle-up fa-angle-up1" aria-hidden="true"></i>
+                                <i class="fa fa-angle-down fa-angle-down1" aria-hidden="true"></i>
+                              
+                                <span >
+                                <input class="dropdown-item" type="text" list="alist" name="browser" placeholder="industry">
+                                <datalist id="alist">
+                                    <option value="industry1">
+                                    <option value="industry2">
+                                    <option value="industry3">
+                                    <option value="industry4">
+                                    <option value="industry5">
+                                </datalist></span>
+                                <i class="fa fa-angle-up fa-angle-up2" aria-hidden="true"></i>
+                                <i class="fa fa-angle-down fa-angle-down2" aria-hidden="true"></i>
+                        <button class="dropdown-item">
+                            search jobs
+                        </button>
+                    </div>
+                </div>
+             
+              
+                <div class="navbar-toggler d-lg-none " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=""><i class="fa fa-bars " aria-hidden="true"></i></span>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto d-lg-none">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TimeSheets
+                                
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">medical</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#">Engineering/ project/ operation
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">consulting</a>
+                        </li>
+                
+                    </ul>
+                </div>
+                <!--I use d-none d-lg-block class to make it appear in large screen and up-->
+                <div class="collapse navbar-collapse d-none d-lg-block" >
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item ">
+                            <a class="nav-link nav-link1 upper" href="/index.html ">Connect Personal Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link1 upper" href="#">
+                                <i class="fa fa-file-text" aria-hidden="true"></i>
+                                TimeSheets
+                                
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-link1 upper" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class=" fa fa-search" aria-hidden="true"></i>Jobs
+                            </a>
+                            <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <input type="text" class="dropdown-item" placeholder="keywords">
+                               
+                                <span >
+                                <input class="dropdown-item" type="text" list="alist" name="browser" placeholder="location">
+                                <datalist id="alist">
+                                    <option value="Alocation">
+                                    <option value="location2">
+                                    <option value="location3">
+                                    <option value="location4">
+                                    <option value="location5">
+                                </datalist></span>
+                                <i class="fa fa-angle-up fa-angle-up1" aria-hidden="true"></i>
+                                <i class="fa fa-angle-down fa-angle-down1" aria-hidden="true"></i>
+                              
+                                <span >
+                                <input class="dropdown-item" type="text" list="alist" name="browser" placeholder="industry">
+                                <datalist id="alist">
+                                    <option value="industry1">
+                                    <option value="industry2">
+                                    <option value="industry3">
+                                    <option value="industry4">
+                                    <option value="industry5">
+                                </datalist></span>
+                                <i class="fa fa-angle-up fa-angle-up2" aria-hidden="true"></i>
+                                <i class="fa fa-angle-down fa-angle-down2" aria-hidden="true"></i>
+                                <button class="dropdown-item">
+                                    search jobs
+                                </button>
+                            </div>
+                        </li>
+            
+                    </ul>
+                </div>
+           
+                   
+            </nav>
+        </div>
+    </div>
+
+    <!--end upper bar-->
+    <!--start header-->
+    <div class="header d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="colum col text-center h6">
+                    <a class=" text-uppercase " href="#">engineering/projects/operations</a>
+                </div>
+                <div class="colum col text-center h6">
+                    <a class="text-uppercase" href="#">our industries</a>
+                </div>
+                 <div class="colum col text-center h6">
+                    <a class="text-uppercase" href="#">browse jobs</a>
+                </div>
+                <div class="colum col text-center h6">
+                    <a class="text-uppercase" href="#">contact us</a>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+   
+    <!--end header-->
+
+    <!--start page contant-->
+    <!--start banner-->
+     <div class="row">
+    <div class="col">
+        <div class="card" >
+            <div class="imge">
+                <img src="../image/eng_banner1.jpg" class="card-img-top" alt="...">
+            </div>    
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="imge">
+                <img src="../image/eng_banner2.jpg" class="card-img-top" alt="...">
+            </div>  
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <div class="imge">
+                <img src="../image/eng_banner3.jpg" class="card-img-top" alt="...">
+            </div>  
+        </div>
+    </div>
+     <div class="col">
+        <div class="card">
+            <div class="imge">
+                <img src="../image/eng_banner4.jpg" class="card-img-top" alt="...">
+            </div>  
+        </div>
+    </div>
+</div>  
+   <!--start banner-->
+<!--start banner text-->
+
+<div class="banner-text">
+    <div class="container">
+        <h2>contract resources</h2>
+        <p>
+          With supporting text below as a natural lead-in to additional content.
+            With supporting text below as a  lead-in to additional content
+            With supporting  below as a natural lead-in  additional content
+            With supporting text below as a natural lead-in to additional content.
+            With  text  a natural lead-in to additional content
+            With supporting text below as a natural lead-in to additional content
+        </p>
+    </div>
+</div>
+<!--end banner-text-->
+
+<!--start roles-->
+
+<div class="roles">
+    <div class="container">
+        <h3 class="text-capitalize">key roles typically</h3>
+
+        <div class="row">
+            <div class="col-3 d-none d-lg-block">
+                <h5 class="text-capitalies">manegment---</h5>
+            </div>
+           <div class="col-5 d-lg-none">
+                <h5 class="text-capitalize">manegment</h5>
+            </div> 
+
+            <div class="col-9">
+                <p class="text-capitalize">With supporting text a natural lead-in to additional content.</p>
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="col-3 d-none d-lg-block">
+                <h5 class="text-capitalize">Engineering---</h5>
+            </div>
+            <div class="col-5 d-lg-none ">
+                <h5 class="text-capitalize">Engineering</h5>
+            </div>
+
+            <div class="col-9">
+                <p class="text-capitalize">With  text below as a naturalead-in to additional contentl lead-in to additional content.</p>
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="col-3 d-none d-lg-block">
+                <h5 class="text-capitalize">design/drafting---</h5>
+            </div>
+             <div class="col-5 d-lg-none">
+                <h5 class="text-capitalize">design/drafting</h5>
+            </div>
+
+            <div class="col-9">
+                <p class="text-capitalize">With supporting lead-in to additional contenttext below as a natural lead-in to content.</p>
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="col-3  d-none d-lg-block">
+                <h5 class="text-capitalize">manegment---</h5>
+            </div>
+            <div class="col-5 d-lg-none">
+                <h5 class="text-capitalize">manegment</h5>
+            </div>
+
+            <div class="col-9">
+                <p class="text-capitalize">With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional content.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--end roles-->
+    <!-- start slider-->
+
+
+    <div class="slider">
+        <div class="container">
+            <h2 class="text-uppercase text-center ">latest roles</h2>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+             
+            <div class="carousel-inner">
+                <div class="carousel-item active">   
+                    <div class="row">
+                        <div  class="col-sm">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="fw-bold" > Medical1 </h6>
+                                    <h3 class="card-title">Card title</h3>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text fw-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div  class="col-sm  d-none d-lg-block">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="fw-bold"> Medical </h6>
+                                    <h3 class="card-title">Card title</h3>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text fw-light ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div  class="col-sm d-none d-lg-block">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="fw-bold"> Medical </h6>
+                                    <h3 class="card-title">Card title</h3>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text fw-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                
+                    <div class="row">
+                        <div  class="col-sm">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="fw-bold" > Medical </h6>
+                                    <h3 class="card-title">Card title</h3>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text fw-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div  class="col-sm  d-none d-lg-block">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="fw-bold"> Medical </h6>
+                                    <h3 class="card-title">Card title</h3>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text fw-light ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div  class="col-sm d-none d-lg-block">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="fw-bold"> Medical </h6>
+                                    <h3 class="card-title">Card title</h3>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text fw-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="carousel-item">
+                
+                    <div class="row">
+                        <div  class="col-sm">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="fw-bold" > engineering/projects/operations</h6>
+                                    <h3 class="card-title">Card title</h3>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text fw-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div  class="col-sm  d-none d-lg-block">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="fw-bold"> engineering/projects/operations </h6>
+                                    <h3 class="card-title">Card title</h3>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text fw-light ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div  class="col-sm d-none d-lg-block">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="fw-bold">engineering/projects/operations </h6>
+                                    <h3 class="card-title">Card title</h3>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text fw-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div class="d-none d-lg-block">
+        <div class="d-flex justify-content-center ">
+        <a href="#" class="c text-capitalize btn btn-primary">browse all engineering/projects/operations</a>
+        </div>
+        </div>
+    </div>    
+</div>
+
+<!--end slider (carousel )-->
+
+<!--start our team cards-->
+
+
+
+<div class="our-team">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card" >
+                    <div class="image">
+                        <img src="../image/eng_banner2.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <h6>0109822445</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="fw-bolder card-link">in</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="image">
+                        <img src="../image/colposcopy.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <h6>0109822445</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="fw-bolder card-link">in</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card">
+                    <div class="image">
+                        <img src="../image/eng_banner1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <h6>0109822445</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="fw-bolder card-link">in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end connect group card-->
+
+
+<!--start opinions -->
+<div class="quote">
+    <div class="container">
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <div><i class="fa fa-5x fa-quote-left" aria-hidden="true"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <i class="fa fa-5x fa-quote-right" aria-hidden="true"></i>
+                </div>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+            </figcaption>
+        </figure>
+    </div>
+</div>
+
+<!--end opinions-->
+
+<!--start get-touch-->
+<div class="get-touch">
+      <div class="container">
+        <h1 class="text-capitalize w-50 d-none d-lg-block">get in touch with the engineering/projects</br>/operations team</h1>
+        <h2 class="text-capitalize  d-lg-none">get in touch with the engineering/projects</br>/operations team</h1>
+
+        <div class="row">
+        <div class="col-sm">    
+        <div class="row border-top">
+            <div class="col-3 ">
+                <svg height="3rem" width="3rem"  id="Ñëîé_1" data-name="Ñëîé 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.39 39.27">
+                <defs>
+                <style>.cls-1{fill:#6b83e1;}</style>
+                </defs>
+                <title>location</title>
+                <path class="cls-1" d="M1331.75,933.82a.62.62,0,0,1-.49-.23l-11.6-13.81a15.35,15.35,0,0,1,11.75-25.23h.69a15.35,15.35,0,0,1,11.75,25.23l-11.6,13.81A.64.64,0,0,1,1331.75,933.82Zm-.34-38A14.07,14.07,0,0,0,1320.64,919l11.11,13.23L1342.86,919h0a14.06,14.06,0,0,0-10.76-23.11Z" transform="translate(-1316.06 -894.55)"/>
+                <path class="cls-1" d="M1331.75,919.13a9.23,9.23,0,1,1,9.23-9.23A9.24,9.24,0,0,1,1331.75,919.13Zm0-17.17a7.94,7.94,0,1,0,7.94,7.94A8,8,0,0,0,1331.75,902Z" transform="translate(-1316.06 -894.55)"/>
+                </svg>
+            </div>
+            
+            <div class="col-9">
+                <p class="text-capitalize">our address here</p>
+            </div>
+        </div>
+
+         <div class="row border-top">
+            <div class="col-3 ">
+                <svg height="3rem" width="3rem"  id="Ñëîé_1" data-name="Ñëîé 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.05 37.02">
+                <defs>
+                <style>.cls-1{fill:#6b83e1;}</style>
+                </defs>
+                <title>phone</title>
+                <path class="cls-1" d="M1426,932.7a17.58,17.58,0,0,1-2.42-.25,18.69,18.69,0,0,1-4.09-1.26,33.55,33.55,0,0,1-5.39-3,40.37,40.37,0,0,1-6.39-5.38,44,44,0,0,1-4.45-5.07,36.69,36.69,0,0,1-2.85-4.5,25,25,0,0,1-1.64-3.77,20.33,20.33,0,0,1-.74-2.94,10.83,10.83,0,0,1-.16-2c0-.42,0-.66,0-.72a.28.28,0,0,1,0-.09,4.33,4.33,0,0,1,.4-1.27,3.4,3.4,0,0,1,.79-1.08l5-5a2.33,2.33,0,0,1,1.67-.71,2,2,0,0,1,1.25.41,3.18,3.18,0,0,1,.8.87l0,0,4,7.69a2.46,2.46,0,0,1,.25,1.76,3,3,0,0,1-.82,1.53l-1.82,1.82v0s0,0,0,0a6.24,6.24,0,0,0,.61,1.55,15,15,0,0,0,1.35,2.13,24.47,24.47,0,0,0,2.61,2.93,25.15,25.15,0,0,0,3,2.65,16.08,16.08,0,0,0,2.13,1.36,4.65,4.65,0,0,0,1.19.49l.36.08,0,0h0l2.12-2.16,0,0a3,3,0,0,1,2-.76,2.63,2.63,0,0,1,1.25.26l.14,0,7.3,4.32a2.54,2.54,0,0,1,1.26,1.68v0a2.38,2.38,0,0,1-.71,2l-5,5a3.38,3.38,0,0,1-1.06.77,4.45,4.45,0,0,1-1.27.4h-.09l-.16,0Zm-26.8-28.79c0,.11,0,.36,0,.74a8.94,8.94,0,0,0,.15,1.73,18,18,0,0,0,.69,2.75,22.72,22.72,0,0,0,1.55,3.57,35.57,35.57,0,0,0,2.75,4.33,41.27,41.27,0,0,0,4.32,4.91,38.92,38.92,0,0,0,6.19,5.22A31.74,31.74,0,0,0,1420,930a17.05,17.05,0,0,0,3.79,1.17,16.62,16.62,0,0,0,2.23.24h.44l.21,0a3.51,3.51,0,0,0,.87-.28,2.2,2.2,0,0,0,.69-.5l5.06-5a1.09,1.09,0,0,0,.35-1,1.28,1.28,0,0,0-.65-.81l-7.21-4.25-.13-.06a1.36,1.36,0,0,0-.69-.13,1.74,1.74,0,0,0-1.15.42l-2.14,2.18a1.16,1.16,0,0,1-.5.29,1,1,0,0,1-.58.08l-.47-.09a6.7,6.7,0,0,1-1.53-.61,17.68,17.68,0,0,1-2.3-1.47,26.14,26.14,0,0,1-3.11-2.78,25.58,25.58,0,0,1-2.75-3.08A17,17,0,0,1,1409,912a7.35,7.35,0,0,1-.74-2,.49.49,0,0,1,0-.12,1.55,1.55,0,0,1,.09-.49,1.22,1.22,0,0,1,.29-.5l1.85-1.85a1.75,1.75,0,0,0,.47-.89,1.2,1.2,0,0,0-.12-.88l-4-7.67a2.08,2.08,0,0,0-.47-.51.73.73,0,0,0-.48-.16,1,1,0,0,0-.76.35l-5,5a2.19,2.19,0,0,0-.51.71A2.87,2.87,0,0,0,1399.23,903.91Z" transform="translate(-1397.9 -895.68)"/>
+                </svg>
+            </div>
+        
+            <div class="col-9">
+                <p class="text-capitalize">our phone here <a>000123487</a></p>
+            </div>
+        </div>
+
+        <div class="row border-top">
+            <div class="col-3">
+                <svg height="3rem" width="3rem" id="Ñëîé_1" data-name="Ñëîé 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.32 25.66">
+                <defs>
+                <style>.cls-1{fill:#6b83e1;}</style>
+                </defs>
+                <title>email</title>
+                <path class="cls-1" d="M1604.27,927h-37a.64.64,0,0,1-.64-.65V902a.64.64,0,0,1,.64-.64h37a.64.64,0,0,1,.64.64v24.37A.65.65,0,0,1,1604.27,927Zm-36.39-1.29h35.74V902.65h-35.74Z" transform="translate(-1566.59 -901.36)"/>
+                <path class="cls-1" d="M1585.75,919.52a.65.65,0,0,1-.43-.17l-18.51-16.87a.64.64,0,0,1,.43-1.12h37a.65.65,0,0,1,.6.41.63.63,0,0,1-.17.71l-18.51,16.87A.67.67,0,0,1,1585.75,919.52Zm-16.85-16.87L1585.75,918l16.86-15.35Z" transform="translate(-1566.59 -901.36)"/>
+                <path class="cls-1" d="M1604.27,927h-37a.65.65,0,0,1-.61-.44.64.64,0,0,1,.22-.72l14.67-11a.64.64,0,0,1,.91.13.65.65,0,0,1-.13.9l-13.13,9.84h33.17l-13-9.72a.63.63,0,0,1-.13-.9.64.64,0,0,1,.9-.13l14.51,10.88a.64.64,0,0,1,.22.72A.65.65,0,0,1,1604.27,927Z" transform="translate(-1566.59 -901.36)"/></svg>
+            </div>
+
+            <div class="col-9">
+                <p class="text-capitalize"><a>send email</a></p>
+            </div>
+        </div>
+        
+        <div class="row border-top">
+            <div class="col-3 ">
+                <svg  height="3rem" width="3rem" id="Ñëîé_1" data-name="Ñëîé 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.2 34.09">
+                <defs>
+                <style>.cls-1{
+                    fill:#6b83e1;
+                   
+                }</style>
+                </defs>
+                <title>callback</title>
+                <path class="cls-1" d="M1764.51,931.23c-6.94,0-13.13-3.16-15-7.69a.64.64,0,1,1,1.18-.5c1.73,4.06,7.43,6.9,13.87,6.9a19.55,19.55,0,0,0,8.7-1.92.62.62,0,0,1,.44,0l4.38,1.11-.91-3.62a.64.64,0,0,1,.13-.56,6.88,6.88,0,0,0,1.65-4.36c0-4.2-4.33-7.93-10.53-9.06a.65.65,0,0,1,.23-1.27c6.82,1.25,11.59,5.5,11.59,10.33a8.11,8.11,0,0,1-1.74,4.91l1.1,4.36a.65.65,0,0,1-.17.61.63.63,0,0,1-.61.17l-5.2-1.31A21,21,0,0,1,1764.51,931.23Z" transform="translate(-1729.99 -897.15)"/><path class="cls-1" d="M1749.48,923.63a26.09,26.09,0,0,1-11.34-2.46l-6.57,1.66a.67.67,0,0,1-.62-.17.65.65,0,0,1-.17-.61l1.4-5.54a10,10,0,0,1-2.19-6.12c0-7.31,8.74-13.24,19.49-13.24s19.49,5.93,19.49,13.24S1760.23,923.63,1749.48,923.63Zm-11.27-3.79a.59.59,0,0,1,.29.07,24.67,24.67,0,0,0,11,2.43c10,0,18.2-5.36,18.2-12s-8.16-12-18.2-12-18.21,5.37-18.21,12a8.89,8.89,0,0,0,2.11,5.57.63.63,0,0,1,.13.56l-1.21,4.8,5.75-1.46Z" transform="translate(-1729.99 -897.15)"/>
+                <path class="cls-1" d="M1749.48,913.36a3,3,0,1,1,3-3A3,3,0,0,1,1749.48,913.36Zm0-4.66a1.69,1.69,0,1,0,1.68,1.69A1.69,1.69,0,0,0,1749.48,908.7Z" transform="translate(-1729.99 -897.15)"/>
+                <path class="cls-1" d="M1740.65,913.36a3,3,0,1,1,3-3A3,3,0,0,1,1740.65,913.36Zm0-4.66a1.69,1.69,0,1,0,1.68,1.69A1.69,1.69,0,0,0,1740.65,908.7Z" transform="translate(-1729.99 -897.15)"/><path class="cls-1" d="M1758.31,913.36a3,3,0,1,1,3-3A3,3,0,0,1,1758.31,913.36Zm0-4.66a1.69,1.69,0,1,0,1.68,1.69A1.69,1.69,0,0,0,1758.31,908.7Z" transform="translate(-1729.99 -897.15)"/>
+                </svg>
+                
+            </div>
+           
+            <div class="col-9">
+                <p class="text-capitalize">request acall back</p>
+                <div class="input-group mb-3">
+                    <input type="phone" class="form-control" placeholder="enter your phone number" aria-label="Username">
+                    <span class="input-group-text">
+                    <svg height="1.5rem" width="1.5rem" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.52 45.52"><defs><style>.cls-1,.cls-2{fill:none;stroke:#000;}.cls-1{stroke-miterlimit:0;stroke-width:0px;}.cls-2{stroke-linecap:round;stroke-linejoin:round;stroke-width:1.75px;}</style></defs><title>ForwardArrow</title><line class="cls-2" x1="21.09" y1="29.06" x2="27.27" y2="22.91"/><line class="cls-2" x1="27.32" y1="22.86" x2="21.09" y2="16.64"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+         <div class="row border-top">
+            <div class="col-3 ">
+                <svg height="3rem" width="3rem" id="Ñëîé_1" data-name="Ñëîé 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.52 39.64">
+                <defs>
+                <style>.cls-1{fill:#6b83e1;stroke:#000;stroke-miterlimit:10;stroke-width:0.2px;}</style>
+                </defs>
+                <title>refer</title>
+                <path class="cls-1" d="M1768.58,1410.94h0l-7.38-.09h-.05l-8.6-.1a4.22,4.22,0,0,1-2.64-1,2.06,2.06,0,0,0-.84-.4,1.9,1.9,0,0,1-1.44-1.83v-17.22a1.91,1.91,0,0,1,.25-.93l4.21-7.37a16.76,16.76,0,0,0,2-5.4l.4-2.15a3,3,0,0,1,2-2.52,3.2,3.2,0,0,1,.83-.1c1.64,0,2.94,2,3.89,5.78a9.14,9.14,0,0,1,.14,3.79l-1.1,6.3,11.76.15a3.55,3.55,0,0,1,3.54,3.39,3.42,3.42,0,0,1-1,2.5,3.25,3.25,0,0,1-1,.7,7.23,7.23,0,0,0-.3,7.71,3.45,3.45,0,0,0-1.15,5.4A3.47,3.47,0,0,1,1768.58,1410.94Zm-11.36-37.85a2.24,2.24,0,0,0-.46.05c-.94.26-1.07,1.39-1.08,1.44v.05l-.4,2.17a18.18,18.18,0,0,1-2.11,5.81L1749,1390a.6.6,0,0,0-.08.29v17.22a.61.61,0,0,0,.47.58,3.44,3.44,0,0,1,1.34.66,3,3,0,0,0,1.84.72l8.61.11h0l7.37.09a2.17,2.17,0,0,0,.89-4.17.64.64,0,0,1,.26-1.23h0a2.17,2.17,0,0,0,.86-4.17.64.64,0,0,1,.25-1.23h0a2.17,2.17,0,0,0,.86-4.17.65.65,0,0,1-.38-.72.63.63,0,0,1,.64-.51,2.14,2.14,0,0,0,1.57-.64,2.2,2.2,0,0,0,.63-1.58,2.25,2.25,0,0,0-2.26-2.13l-12.47-.15a.63.63,0,0,1-.48-.23l0-.06a.64.64,0,0,1-.14-.52l1.22-7a7.79,7.79,0,0,0-.12-3.26c-.73-3-1.75-4.79-2.65-4.8Z" transform="translate(-1731.22 -1371.55)"/>
+                <path class="cls-1" d="M1733.37,1410.44a1.88,1.88,0,0,1-1.31-.53,1.83,1.83,0,0,1-.55-1.3l0-19.17a1.8,1.8,0,0,1,.55-1.31,1.86,1.86,0,0,1,1.31-.53l10.53,0h0a1.86,1.86,0,0,1,1.3.53,1.76,1.76,0,0,1,.55,1.3l0,19.17a1.78,1.78,0,0,1-.54,1.3,1.88,1.88,0,0,1-1.31.53l-10.54,0Zm10.5-21.57h0l-10.53,0a.6.6,0,0,0-.41.16.57.57,0,0,0-.16.38l0,19.17a.56.56,0,0,0,.57.55l10.54,0a.54.54,0,0,0,.4-.17.52.52,0,0,0,.17-.38l0-19.17a.52.52,0,0,0-.17-.38A.55.55,0,0,0,1743.87,1388.87Z" transform="translate(-1731.22 -1371.55)"/>
+                <path class="cls-1" d="M1772,1394.74h-5.54a.65.65,0,0,1,0-1.29H1772a.65.65,0,1,1,0,1.29Z" transform="translate(-1731.22 -1371.55)"/><path class="cls-1" d="M1770.85,1400.13h-5.54a.65.65,0,1,1,0-1.29h5.54a.65.65,0,0,1,0,1.29Z" transform="translate(-1731.22 -1371.55)"/><path class="cls-1" d="M1769.69,1405.54h-5.54a.65.65,0,0,1,0-1.29h5.54a.65.65,0,1,1,0,1.29Z" transform="translate(-1731.22 -1371.55)"/>
+                </svg>
+            </div>
+            
+            <div class="col-9">
+                <p class="text-capitalize">With  text below as a naturalead-in to additional contentl lead-in to additional content.</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm">
+        <div class="card float-right">
+            <div class="card-body">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="full name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="phone number">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleDataList" class="form-label"></label>
+                    <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="select">
+                    <datalist id="datalistOptions">
+                    <option value="San Francisco">
+                    <option value="New York">
+                    <option value="Seattle">
+                    <option value="Los Angeles">
+                    <option value="Chicago">
+                    </datalist>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="message"></textarea>
+                </div>
+            
+                <p class="card-text ">
+                fields required. your privacy is our priority
+                </p>
+                <button href="#" class="bg-white text-dark btn btn-primary">Submit</button>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!--end connect group card-->
+    <!--end page contant-->
+
+
+
+    <!--start footer-->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+            <a href="/index.html">
+                <div class="image">
+                    <img src="../image/new-image/logo-wh.png">
+                </div>
+            </a>
+                <p class="text-uppercase">&copy; copyright 2021 connect personel </div>
+            </div>
+            <div class="col-sm-3">
+            </div>
+
+            <div class="col-sm-3">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!--end footer-->
+
+
+    <!--start scripts-->
+ 
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/jquery.nicescroll.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+   
+    <script src="../js/script.js"></script>
+    <!--end scripts-->
+</body>
+</html>

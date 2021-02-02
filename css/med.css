@@ -1,0 +1,57 @@
+.navbar-light .show .navbar-nav .nav-link:hover{  /*for mobile*/
+    color: #483ea1;
+    background-color: #73ba9d;
+}
+
+
+/*start header*/
+header .row .colum, .header .row .colum {
+    padding: 1.4rem !important;
+}
+
+
+.header .row .colum:hover a{
+    color: #73ba9d;
+}
+/*end header*/
+
+/*start medical banner*/
+.med-banner{
+    height: 25rem;
+    background-image: url('../image/bigstock-Medical-Team-Joining-Jigsaw-Pi-109604384.jpg');
+    background-position: center center;
+    background-size: cover;
+
+}
+
+/*end medical banner*/
+/*start roles*/
+
+.roles{
+    background-color:#73ba9d;
+    background-image: url('../image/medical.png');
+    
+}
+
+.slider .btn-primary:hover{
+    background-color: #73ba9d; 
+    color:#fff ;
+}
+/*end roles*/
+
+/*start connect*/
+
+.connect{
+    height: 30rem;
+    background-image: url(../image/medical2.jpg);
+    background-size: 100% 30rem;
+    background-position: center center;
+
+}
+
+/*start get in touch*/
+
+.get-touch{
+    background-color: #73ba9d;
+    
+}
