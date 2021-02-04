@@ -28,13 +28,6 @@
     padding: 1rem 0rem 2rem 0rem;
 }
 
-@media (max-width:768px){
-    .banner-text{
-    margin: .9rem;
-    padding: .9rem;
-
-}
-}
 /*end text-banner*/
 
 /*start roles*/
@@ -141,3 +134,17 @@
     color: #fff;
 }
 /*end*/
+
+@media (max-width:768px){
+    .banner-text{
+    margin: .9rem;
+    padding: .9rem;
+
+}
+
+.get-touch .row.border-top{
+    padding: 1rem;
+}
+}
+
+
