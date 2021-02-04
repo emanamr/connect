@@ -1,14 +1,17 @@
 /*start basic style*/
-/*@import url('https://fonts.googleapis.com/css2?family=Allura&family=East+Sea+Dokdo&family=Marck+Script&family=Permanent+Marker&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=East+Sea+Dokdo&family=Marck+Script&family=Permanent+Marker&family=Playball&display=swap');
 
-@import url('/fonts/ProximaNovaRegular.ttf');*/
+@import url('/fonts/ProximaNovaRegular.ttf');
 /*like hand write*/
-/*@import url('/fonts/proximanovalight.ttf');
-@import url('/fonts/Proxima\ Nova\ Bold.otf');*/
+@import url('/fonts/proximanovalight.ttf');
+@import url('/fonts/Proxima\ Nova\ Bold.otf');
 /*end basic style*/
 
 /*start upper bar style*/
-
+html{
+    font-family: ProximaNovaRegular;
+    font-size:1rem;
+}
 nav.navbar{
     padding: .6rem 0rem !important;
 }
@@ -69,7 +72,12 @@ i.fa-search , i.fa-file-text{
 .navbar-toggler{
     line-height: normal !important;
 }
-
+.navbar-light .navbar-nav{
+    background-color: #4d4599;
+}
+.navbar-light .navbar-nav .nav-item{
+    padding:.8rem;
+}
 /* start dropdown */
 .dropdown-menu{
     background-color: #615b9b;
@@ -391,6 +399,7 @@ button.dropdown-item1{
     color:#fff;
     background-color: #4d4599;
 }
+
 .connect .card-body , .mob-card .card-body{
     padding: 3rem;
 }
@@ -469,9 +478,17 @@ button.dropdown-item1{
 /*start media quiery*/
 
 @media(max-width:768px){
+    html{
+        font-size:.9rem;
+    }
     .card .imge{
         height: 10rem !important;
 }
+    .connect .card, .mob-card {
+    height: auto;
+    
+}
+
 }
 
 /*/ Large devices (desktops, 992px and up)*/
