@@ -72,9 +72,7 @@ i.fa-search , i.fa-file-text{
 .navbar-toggler{
     line-height: normal !important;
 }
-.navbar-light .navbar-nav{
-    background-color: #4d4599;
-}
+
 .navbar-light .navbar-nav .nav-item{
     padding:.8rem;
 }
@@ -481,18 +479,18 @@ button.dropdown-item1{
     html{
         font-size:.9rem;
     }
+
+    .navbar-light .navbar-nav{
+    background-color: #4d4599;
+    }
     .card .imge{
         height: 10rem !important;
-}
+    }
     .connect .card, .mob-card {
     height: auto;
     
-}
-.banner-text{
-    margin: .9rem;
-    padding: .9rem;
+    }
 
-}
 }
 
 /*/ Large devices (desktops, 992px and up)*/

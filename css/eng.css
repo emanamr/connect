@@ -27,6 +27,14 @@
 .banner-text h2{
     padding: 1rem 0rem 2rem 0rem;
 }
+
+@media (max-width:768px){
+    .banner-text{
+    margin: .9rem;
+    padding: .9rem;
+
+}
+}
 /*end text-banner*/
 
 /*start roles*/
