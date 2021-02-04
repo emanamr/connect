@@ -488,7 +488,11 @@ button.dropdown-item1{
     height: auto;
     
 }
+.banner-text{
+    margin: .9rem;
+    padding: .9rem;
 
+}
 }
 
 /*/ Large devices (desktops, 992px and up)*/
